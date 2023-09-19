@@ -19,12 +19,12 @@ element.addEventListener(("click") ,async function() {
    let lat = position.coords.latitude;
    let long = position.coords.longitude;
   
-   setTimeout(()=>{
+   
     localStorage.setItem("latitude",lat);
     localStorage.setItem("longitude",long);
     window.location = "display.html" ;
 
-   },1000);
+  
    
   
   
